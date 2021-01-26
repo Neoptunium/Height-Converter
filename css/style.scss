@@ -1,0 +1,88 @@
+$center: center;
+$maincolor: #a16b6b;
+$secondarycolor: #797676;
+$bordermain: 8px solid black;
+$borderstylemain: double;
+$fontsizemain: 30px;
+$fontmain: "Times New Roman";
+$fontsizesecondary: 19px;
+
+body {
+  background-color: $maincolor;
+}
+
+.top {
+  text-align: $center;
+  border: $bordermain;
+  border-style: $borderstylemain;
+  font-size: $fontsizemain;
+  font-family: $fontmain;
+  box-sizing: border-box;
+  width: 30%;
+  margin: auto;
+  background-color: $secondarycolor;
+}
+
+.main {
+  text-align: $center;
+  font-size: $fontsizemain;
+  font-family: $fontmain;
+}
+
+input {
+  border: $bordermain;
+  border-style: $borderstylemain;
+  background-color: $secondarycolor;
+  font-family: $fontmain;
+  height: 50px;
+  width: 300px;
+  text-align: $center;
+  font-size: $fontsizesecondary;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  font-family: $fontmain;
+  font-size: $fontsizesecondary;
+}
+
+:-moz-placeholder {
+  color: black;
+  font-family: $fontmain;
+  font-size: $fontsizesecondary;
+}
+
+::-moz-placeholder {
+  color: black;
+  font-family: $fontmain;
+  font-size: $fontsizesecondary;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  font-family: $fontmain;
+  font-size: $fontsizesecondary;
+}
+
+.selectcurrentMetric {
+  border: $bordermain;
+  border-style: $borderstylemain;
+  background-color: $secondarycolor;
+  font-family: $fontmain;
+  height: 50px;
+  width: 300px;
+  text-align: $center;
+  font-size: $fontsizesecondary;
+}
+
+.mainselect {
+  border: $bordermain;
+  border-style: $borderstylemain;
+  background-color: $secondarycolor;
+  font-family: $fontmain;
+  height: 50px;
+  width: 300px;
+  text-align: $center;
+  font-size: $fontsizesecondary;
+}
+

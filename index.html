@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" media="screen" href="/css/style.css">
+    <title>Height Converter</title>
+</head>
+
+<body>
+    <br>
+    <div class="top">
+        <a>Height Converter</a>
+    </div>
+    <br>
+    <div class="main">
+        <form id="formbox"> <input name="name" type="number" placeholder="Enter Height in Inches Here" onfocus="this.value=''" required> </form>
+        <br>
+            <button class=" btn btn-dark" onclick="submitMeter()" value="39.37"">Convert to Meter Metric</button>
+            &nbsp;
+            <button class=" btn btn-dark" onclick="submitCentimeter()" value="2.54"">Convert to Centimeter Metric</button>
+            &nbsp;
+            <button class=" btn btn-dark" onclick="submitMillimeter()" value="25.4"">Convert to Millimeter Metric</button>
+            &nbsp;
+            <button class=" btn btn-dark" onclick="submitMicrometer()" value="25400"">Convert to Micrometer Metric</button>
+            &nbsp;
+            <button class=" btn btn-dark" onclick="submitYard()" value="36"">Convert to Yard Metric</button>
+            &nbsp;
+            <button class=" btn btn-dark" onclick="submitFoot()" value="12"">Convert to Foot Metric</button>
+        <br>
+        <br>
+        &nbsp;&nbsp;
+        <button class=" btn btn-danger" onclick="resetFunction()"">Reset Metric System Conversion</button>
+        <hr>
+        <br>
+        <br>
+        <div class="items" id="container"></div>
+
+    </div>
+
+    <script type="text/javascript" src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+  background-color: #a16b6b;
+}
+
+.top {
+  text-align: center;
+  border: 8px solid black;
+  border-style: double;
+  font-size: 30px;
+  font-family: "Times New Roman";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  margin: auto;
+  background-color: #797676;
+}
+
+.main {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman";
+}
+
+input {
+  border: 8px solid black;
+  border-style: double;
+  background-color: #797676;
+  font-family: "Times New Roman";
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 19px;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  font-family: "Times New Roman";
+  font-size: 19px;
+}
+
+:-moz-placeholder {
+  color: black;
+  font-family: "Times New Roman";
+  font-size: 19px;
+}
+
+::-moz-placeholder {
+  color: black;
+  font-family: "Times New Roman";
+  font-size: 19px;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  font-family: "Times New Roman";
+  font-size: 19px;
+}
+
+.selectcurrentMetric {
+  border: 8px solid black;
+  border-style: double;
+  background-color: #797676;
+  font-family: "Times New Roman";
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 19px;
+}
+
+.mainselect {
+  border: 8px solid black;
+  border-style: double;
+  background-color: #797676;
+  font-family: "Times New Roman";
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  font-size: 19px;
+}
+/*# sourceMappingURL=style.css.map */
